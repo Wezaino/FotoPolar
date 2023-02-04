@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: black;
+      }
+
+      .star {
+        position: absolute;
+        width: 3px;
+        height: 3px;
+        background-color: blue;
+        border-radius: 50%;
+        opacity: 0.7;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .star:hover {
+        transform: scale(1.5);
+        opacity: 1;
+      }
+
+      .frame {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      }
+
+      h1 {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="frame">
+      <h1>Wyśrodkowany tekst</h1>
+    </div>
+
+    <!-- Gwiazdozbiory -->
+    <div class="star" style="left: 10%; top: 20%;"></div>
+    <div class="star" style="left: 20%; top: 30%;"></div>
+    <div class="star" style="left: 30%; top: 40%;"></div>
+    <!-- ...więcej gwiazd... -->
+  </body>
+</html>
