@@ -1,6 +1,9 @@
 .colorText {
   color: red;
 }
+.colorText:hover {
+  color: blue;
+}
 
 body {text-align:center;font-family:Arial,sans-serif;}
 span {display:table-cell;height:20px;width:20px;vertical-align:middle;}
