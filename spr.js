@@ -1,4 +1,4 @@
-const text = document.querySelector('#colorText');
+const text = document.querySelector('.colorText');
 
 setInterval(function() {
   const color = getRandomColor();
